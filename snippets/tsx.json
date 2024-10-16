@@ -1,0 +1,36 @@
+{
+  "Log to the console": {
+    "prefix": "log",
+    "body": ["console.log($1);", "$0"],
+    "description": "Log to the console"
+  },
+  "Log warning to console": {
+    "prefix": "warn",
+    "body": ["console.warn($1);", "$0"],
+    "description": "Log warning to the console"
+  },
+  "Log error to console": {
+    "prefix": "error",
+    "body": ["console.error($1);", "$0"],
+    "description": "Log error to the console"
+  },
+  "Throw Exception": {
+    "prefix": "throw",
+    "body": ["throw new Error(\"$1\");", "$0"],
+    "description": "Throw Exception"
+  },
+  "Create React Component": {
+    "prefix": "rfc",
+    "body": [
+      "$0",
+      "interface $1Props {",
+      "  someProps: string;",
+      "}",
+      "",
+      "export const $1 = ({ someProps }: $1Props) => {",
+      "  return <div>$1</div>;",
+      "}"
+    ],
+    "description": "Create React Function Component"
+  }
+}
