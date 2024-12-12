@@ -100,7 +100,7 @@
       "cmd-shift-up": "editor::SelectToBeginning",
       "cmd-shift-down": "editor::SelectToEnd",
       "cmd-a": "editor::SelectAll",
-      "cmd-l": "editor::SelectLine",
+      // "cmd-l": "editor::SelectLine",
       "cmd-shift-i": "editor::Format",
       "cmd-shift-left": [
         "editor::SelectToBeginningOfLine",
@@ -404,6 +404,7 @@
       "cmd-9": ["workspace::ActivatePane", 8],
       "cmd-b": "workspace::ToggleLeftDock",
       "cmd-r": "workspace::ToggleRightDock",
+      "cmd-l": "workspace::ToggleRightDock",
       "cmd-j": "workspace::ToggleBottomDock",
       "alt-cmd-y": "workspace::CloseAllDocks",
       "cmd-shift-f": "pane::DeploySearch",
@@ -510,7 +511,8 @@
       "cmd-f8": "editor::GoToHunk",
       "cmd-shift-f8": "editor::GoToPrevHunk",
       "ctrl-enter": "assistant::InlineAssist",
-      "cmd-enter": "assistant::InlineAssist"
+      "cmd-enter": "assistant::InlineAssist",
+      "cmd-i": "assistant::InlineAssist"
     }
   },
   {
